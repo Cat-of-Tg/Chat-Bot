@@ -12,7 +12,6 @@
 ## Requirements
 
 - Python 3.7 or higher.
-- You Can Get API_ID AND API_HASH From [Here](https://my.telegram.org)
 - A [BOT_TOKEN](https://t.me/botfather).
 
 
