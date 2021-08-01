@@ -2,7 +2,7 @@
   "name": "TIANA",
   "description": "Open-Source bot for Aichat bot",
   "keywords": ["aichatbot", "chatbot", "telegram"],
-  "repository": "https://github.com/PRINCE301102",
+  "repository": "https://github.com/teamofdevil-x/TianaChatBot",
   "buildpacks": [{
   "url": "heroku/python"
   }],
@@ -14,15 +14,15 @@
     },
   "env": {
     "BOT_TOKEN": {
-      "description": "A bot token from @BotFather",
+      "description": "A Bot Token from @BotFather",
       "required": true
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "Api Id from my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "Api Hash from my.telegram.org/apps",
       "required": true
     }
   }
