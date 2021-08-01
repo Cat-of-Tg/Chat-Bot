@@ -18,13 +18,5 @@
       "description": "A Bot Token from @BotFather",
       "required": true
     },
-    "API_ID": {
-      "description": "Api Id from my.telegram.org/apps",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Api Hash from my.telegram.org/apps",
-      "required": true
-    }
   }
 }
