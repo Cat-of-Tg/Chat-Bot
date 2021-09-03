@@ -39,15 +39,15 @@ async def type_and_send(message):
     await message._client.send_chat_action(chat_id, "typing")
     response, _ = await gather(lunaQuery(query, user_id), sleep(2))
     if "Luna" in response:
-        responsee = response.replace("Luna", "Tiana")
+        responsee = response.replace("Luna", "Chat Bot")
     else:
         responsee = response
     if "Aco" in responsee:
-        responsess = responsee.replace("Aco", "Tiana")
+        responsess = responsee.replace("Aco", "Chat Bot")
     else:
         responsess = responsee
-    if "Who is Tiana?" in responsess:
-        responsess2 = responsess.replace("Who is Tiana?", "Heroine Of Telegram")
+    if "Who is ChatBot" in responsess:
+        responsess2 = responsess.replace("Who is ChatBot", "Me 😅")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -86,14 +86,15 @@ async def chat(_, message):
 )
 async def chatpm(_, message):
     if not message.text:
-        await message.reply_text("Ufff... Ignoring .... ¯\_(ツ)_/¯")
+        await message.reply_text("Ufffff Avoiding....")
         return
     await type_and_send(message)
 
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hi, I'm Alive ╮(. ❛ ᴗ ❛.)╭")
+    await message.reply_text("Hmm I Am A Online 😁😁
+/support")
 
 
 async def main():
