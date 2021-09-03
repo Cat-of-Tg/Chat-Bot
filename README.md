@@ -3,7 +3,7 @@
 
 • A Public Running Instance can be found on Telegram as [Chat Bot](https://t.me/Lad_chat_bot).
 
-![Deploy](https://telegra.ph/file/bcd7b3dec21d1c2b2583a.png)
+![Deploy](https://telegra.ph//file/28839eaf1d33f254a6b03.png)
 
 ## DEPLOY ON HEROKU
 
