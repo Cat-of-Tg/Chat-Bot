@@ -93,8 +93,7 @@ async def chatpm(_, message):
 
 @bot.on_message(filters.command("start") & ~filters.edited)
 async def startt(_, message):
-    await message.reply_text("Hmm I Am A Online 😁😁
-/support")
+    await message.reply_text("Hmm I Am A Online (~_^)")
 
 
 async def main():
